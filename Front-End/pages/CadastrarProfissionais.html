@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Pagina do Cadastro para Profissionais</title>
+</head>
+<body>
+   <header class="topo">
+      <div>
+         <img src="" alt="Logo Income of Houses">
+      </div>
+      <nav class="menu">
+         <a href="../index.html">Início</a>
+         <a href="../pages/Plantas.html" class="ativo">Plantas</a>
+         <a href="../pages/Profissionais.html">Profissionais</a>
+         <a href="../pages/Sobre.html">Sobre</a>
+      </nav>
+   </header>
+         <main>
+            <section>
+               <div>
+                  <div>
+                     <img src="" alt="">
+                  </div>
+
+                  <h2>Cadastro de Profissionais</h2>
+
+                  <label for="nome">Nome Completo:</label>
+                  <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Digite seu email"> 
+
+                  <label for="CPF">CPF:</label>
+                  <input type="number" id="CPF" name="CPF" placeholder="Digite seu CPF">
+
+                  <label for="cidade">Cidade:</label>
+                  <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+
+                  <label for="RegistroProfissional">Registro Profissional:</label>
+                  <input type="text" id="RegistroProfissional" name="RegistroProfissional" placeholder="Digite seu registro profissional">
+
+                  <label for="telefone">Telefone:</label>
+                  <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+
+                  <label for="dataNascimento">Data de Nascimento:</label>
+                  <input type="date" id="dataNascimento" name="dataNascimento" placeholder="Digite sua data de nascimento">
+
+                  <label for="estado">Estado:</label>
+                  <Select type="text" id="estado" name="estado">
+                     <option value="">Selecione seu estado</option>
+                     <option value="AC">Acre</option>
+                     <option value="AL">Alagoas</option>
+                     <option value="AP">Amapá</option>
+                     <option value="AM">Amazonas</option>
+                     <option value="BA">Bahia</option>
+                     <option value="CE">Ceará</option>
+                     <option value="DF">Distrito Federal</option>
+                     <option value="ES">Espírito Santo</option>
+                     <option value="GO">Goiás</option>
+                     <option value="MA">Maranhão</option>
+                     <option value="MT">Mato Grosso</option>
+                     <option value="MS">Mato Grosso do Sul</option>
+                     <option value="MG">Minas Gerais</option>
+                     <option value="PA">Pará</option>
+                     <option value="PB">Paraíba</option>
+                     <option value="PR">Paraná</option>
+                     <option value="PE">Pernambuco</	option>
+                     <option value="PI">Piauí</	option>
+                     <option value="RJ">Rio de Janeiro</	option>
+                     <option value="RN">Rio Grande do Norte</	option>
+                     <option value="RS">Rio Grande do Sul</option>
+                     <option value="RO">Rondônia</option>
+                     <option value="RR">Roraima</option>
+                     <option value="SC">Santa Catarina</option>
+                     <option value="SP">São Paulo</option>
+                     <option value="SE">Sergipe</option>
+                     <option value="TO">Tocantins</option>
+                  </Select>
+
+                  <label for="profissao">Profissão</label>
+                  <select id="profissao" name="profissao" required>
+                     <option value="">Selecione uma profissão</option>
+                     <option value="arquiteto">Arquiteto(a)</option>
+                     <option value="engenheiro_civil">Engenheiro(a) Civil</option>
+                     <option value="designer_interiores">Designer de Interiores</option>
+                     <option value="tecnico_edificacoes">Técnico(a) em Edificações</option>
+                     <option value="desenhista_projetista">Desenhista Projetista</option>
+                     <option value="cadista">Cadista</option>
+                     <option value="paisagista">Paisagista</option>
+                     <option value="urbanista">Urbanista</option>
+                     <option value="engenheiro_estrutural">Engenheiro(a) Estrutural</option>
+                     <option value="engenheiro_eletricista">Engenheiro(a) Eletricista</option>
+                     <option value="engenheiro_hidraulico">Engenheiro(a) Hidráulico(a)</option>
+                     <option value="engenheiro_sanitarista">Engenheiro(a) Sanitarista</option>
+                     <option value="engenheiro_ambiental">Engenheiro(a) Ambiental</option>
+                     <option value="engenheiro_seguranca">Engenheiro(a) de Segurança do Trabalho</option>
+                     <option value="construtor">Construtor(a)</option>
+                     <option value="empreiteiro">Empreiteiro(a)</option>
+                     <option value="consultor">Consultor(a) em Construção</option>
+                     <option value="outro">Outro</option>
+                  </select>
+
+                  <label for="senha">Senha:</label>
+                  <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+                  <label for="Confirmarsenha">Confirmar sua Senha:</label>
+                  <input type="password" id="Confirmarsenha" name="Confirmarsenha" placeholder="Digite sua senha novamente">
+
+                  <a href="../pages/Login.html">Já tenho uma conta</a>
+                  <a href="../pages/Cadastro.html">Sou um Usuario</a>
+
+                  <label for="documento">Anexar documentos(opcional)</label>
+                  <input type="file" id="documento" name="documento" accept=".pdf,.doc,.docx">
+
+                  <button type="submit">Cadastrar</button>
+               </div>
+
+            </section>
+
+         </main>
+   <footer class="rodapé">
+      <p> ©IncomeOfHouses.Todos os direitos reservados.</p>
+      <a href="../pages/TermosUso.html">Termos de Uso</a>
+      <a href="../pages/PoliticaPrivacidade.html">Política de Privacidade</a>
+   </footer>
+</body>
+</html>
