@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
-   <link rel="stylesheet" href="../css/style.css">
-   <title>Pagina de Plantas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
+
    <header class="topo">
       <div>
          <img src="" alt="Logo Income of Houses">
@@ -26,11 +28,109 @@
          <main>
 
 
+    <header class="topo">
+        <nav class="menu">
+            <a href="../index.html">Início</a>
+            <a href="Plantas.html" class="ativo">Plantas</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Sobre.html">Sobre</a>
+
+            <a href="Login.html">
+                <img src="../img/login.png" alt="Login" class="iconelogin">
+            </a>
+        </nav>
+    </header>
+
+    <main class="pagina-plantas">
+
+        <section class="filtros">
+
+            <h1>Encontre a planta ideal</h1>
+
+            <div class="linha-filtros">
+
+                <div class="campo">
+                    <label for="tipo">Tipo</label>
+                    <select id="tipo">
+                        <option value="">Todos</option>
+                        <option value="Casa Térrea">Casa Térrea</option>
+                        <option value="Sobrado">Sobrado</option>
+                        <option value="Moderno">Moderno</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="quartos">Quartos</label>
+                    <select id="quartos">
+                        <option value="">Todos</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4+</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="garagem">Garagem</label>
+                    <select id="garagem">
+                        <option value="">Todos</option>
+                        <option value="1 vaga">1 vaga</option>
+                        <option value="2 vagas">2 vagas</option>
+                        <option value="3 vagas">3 vagas</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="linha-filtros">
+
+                <div class="campo">
+                    <label for="estilo">Estilo</label>
+                    <select id="estilo">
+                        <option value="">Todos</option>
+                        <option value="Moderno">Moderno</option>
+                        <option value="Clássico">Clássico</option>
+                        <option value="Minimalista">Minimalista</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="area">Área</label>
+                    <select id="area">
+                        <option value="">Todos</option>
+                        <option value="80 m²">80 m²</option>
+                        <option value="120 m²">120 m²</option>
+                        <option value="180 m²">180 m²</option>
+                    </select>
+                </div>
+
+                <button id="btnPesquisar">Pesquisar</button>
+
+            </div>
+
+        </section>
+
+        <section class="cards-plantas">
+        </section>
+
+    </main>
+
+    <footer class="rodapé">
+        <p>© Income Of Houses. Todos os direitos reservados.</p>
+
+        <a href="TermosUso.html">Termos de Uso</a>
+        <a href="PoliticaPrivacidade.html">Política de Privacidade</a>
+    </footer>
+
+    <script src="../js/plantas.js"></script>
+
+
          </main>
    <footer class="rodapé">
       <p>©IncomeOfHouses.Todos os direitos reservados.</p>
       <a href="../pages/TermosUso.html">Termos de Uso</a>
       <a href="../pages/PoliticaPrivacidade.html">Política de Privacidade</a>
    </footer>
+
 </body>
+
 </html>

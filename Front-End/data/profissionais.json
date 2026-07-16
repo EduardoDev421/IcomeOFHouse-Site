@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "nome": "Carlos Henrique",
+        "profissao": "Arquiteto",
+        "especialidade": "Projetos Residenciais Modernos",
+        "descricao": "Especialista em projetos modernos, priorizando conforto, funcionalidade e aproveitamento dos espaços.",
+        "imagem": "../img/profissionais/profissional1.jpg",
+        "cidade": "Brasília - DF",
+        "experiencia": "12 anos",
+        "avaliacao": 4.9,
+        "telefone": "(61) 99999-1111",
+        "email": "carlos@email.com"
+    },
+    {
+        "id": 2,
+        "nome": "Mariana Souza",
+        "profissao": "Arquiteta",
+        "especialidade": "Casas Minimalistas",
+        "descricao": "Desenvolve projetos minimalistas com foco em elegância, iluminação natural e praticidade.",
+        "imagem": "../img/profissionais/profissional2.jpg",
+        "cidade": "Goiânia - GO",
+        "experiencia": "8 anos",
+        "avaliacao": 4.8,
+        "telefone": "(62) 99999-2222",
+        "email": "mariana@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Fernando Lima",
+        "profissao": "Engenheiro Civil",
+        "especialidade": "Projetos Estruturais",
+        "descricao": "Atua na elaboração de projetos estruturais para residências de pequeno e grande porte.",
+        "imagem": "../img/profissionais/profissional3.jpg",
+        "cidade": "Anápolis - GO",
+        "experiencia": "15 anos",
+        "avaliacao": 5.0,
+        "telefone": "(62) 99999-3333",
+        "email": "fernando@email.com"
+    },
+    {
+        "id": 4,
+        "nome": "Juliana Martins",
+        "profissao": "Designer de Interiores",
+        "especialidade": "Ambientes Residenciais",
+        "descricao": "Especialista em decoração de interiores com projetos modernos e personalizados.",
+        "imagem": "../img/profissionais/profissional4.jpg",
+        "cidade": "Brasília - DF",
+        "experiencia": "9 anos",
+        "avaliacao": 4.7,
+        "telefone": "(61) 99999-4444",
+        "email": "juliana@email.com"
+    },
+    {
+        "id": 5,
+        "nome": "Ricardo Almeida",
+        "profissao": "Arquiteto",
+        "especialidade": "Casas de Alto Padrão",
+        "descricao": "Especializado em residências de luxo com arquitetura contemporânea e sustentável.",
+        "imagem": "../img/profissionais/profissional5.jpg",
+        "cidade": "São Paulo - SP",
+        "experiencia": "18 anos",
+        "avaliacao": 5.0,
+        "telefone": "(11) 99999-5555",
+        "email": "ricardo@email.com"
+    },
+    {
+        "id": 6,
+        "nome": "Beatriz Oliveira",
+        "profissao": "Paisagista",
+        "especialidade": "Paisagismo Residencial",
+        "descricao": "Cria projetos de jardins e áreas externas valorizando a integração entre natureza e arquitetura.",
+        "imagem": "../img/profissionais/profissional6.jpg",
+        "cidade": "Belo Horizonte - MG",
+        "experiencia": "10 anos",
+        "avaliacao": 4.9,
+        "telefone": "(31) 99999-6666",
+        "email": "beatriz@email.com"
+    }
+]

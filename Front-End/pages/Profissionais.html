@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,5 +33,113 @@
       <a href="../pages/TermosUso.html">Termos de Uso</a>
       <a href="../pages/PoliticaPrivacidade.html">Política de Privacidade</a>
    </footer>
+</body>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissionais</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <nav class="menu">
+            <a href="../index.html">Início</a>
+            <a href="Plantas.html">Plantas</a>
+            <a href="Profissionais.html" class="ativo">Profissionais</a>
+            <a href="Sobre.html">Sobre</a>
+
+            <a href="Login.html">
+                <img src="../img/login.png" alt="Login" class="iconelogin">
+            </a>
+        </nav>
+    </header>
+
+    <main class="pagina-profissionais">
+
+        <section class="filtros">
+
+            <h1>Encontre um profissional</h1>
+
+            <div class="linha-filtros">
+
+                <div class="campo">
+                    <label for="profissao">Profissão</label>
+                    <select id="profissao">
+                        <option value="">Todas</option>
+                        <option value="Arquiteto">Arquiteto</option>
+                        <option value="Arquiteta">Arquiteta</option>
+                        <option value="Engenheiro Civil">Engenheiro Civil</option>
+                        <option value="Designer de Interiores">Designer de Interiores</option>
+                        <option value="Paisagista">Paisagista</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <select id="cidade">
+                        <option value="">Todas</option>
+                        <option value="Brasília - DF">Brasília - DF</option>
+                        <option value="Goiânia - GO">Goiânia - GO</option>
+                        <option value="Anápolis - GO">Anápolis - GO</option>
+                        <option value="São Paulo - SP">São Paulo - SP</option>
+                        <option value="Belo Horizonte - MG">Belo Horizonte - MG</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="experiencia">Experiência</label>
+                    <select id="experiencia">
+                        <option value="">Todas</option>
+                        <option value="8 anos">8 anos</option>
+                        <option value="9 anos">9 anos</option>
+                        <option value="10 anos">10 anos</option>
+                        <option value="12 anos">12 anos</option>
+                        <option value="15 anos">15 anos</option>
+                        <option value="18 anos">18 anos</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="linha-filtros">
+
+                <div class="campo">
+                    <label for="avaliacao">Avaliação</label>
+                    <select id="avaliacao">
+                        <option value="">Todas</option>
+                        <option value="5">5.0</option>
+                        <option value="4.9">4.9</option>
+                        <option value="4.8">4.8</option>
+                        <option value="4.7">4.7</option>
+                    </select>
+                </div>
+
+                <button id="btnPesquisarProfissional">
+                    Pesquisar
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="cards-profissionais">
+            <!-- Os cards serão criados pelo profissionais.js -->
+        </section>
+
+    </main>
+
+    <footer class="rodapé">
+        <p>© Income Of Houses. Todos os direitos reservados.</p>
+
+        <a href="TermosUso.html">Termos de Uso</a>
+        <a href="PoliticaPrivacidade.html">Política de Privacidade</a>
+    </footer>
+
+    <script src="../js/profissionais.js"></script>
+
 </body>
 </html>
