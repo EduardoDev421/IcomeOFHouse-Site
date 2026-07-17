@@ -1,7 +1,7 @@
 # IncomeofHouse-Site
 
 # Contexto Profissional:
-    O Café Central é uma cafeteria fictícia localizada em uma região de grande circulação de pessoas. O negócio oferece cafés especiais, bebidas quentes e frias, lanches e sobremesas, atendendo tanto para consumo local quanto para retirada. Atualmente, o Café Central não possui um site institucional. O proprietário deseja fortalecer a identidade da marca, divulgar seus produtos e facilitar o contato com os clientes por meio de um site institucional autoral.
+    A IncomeOfHouse é uma plataforma fictícia especializada na divulgação de plantas de casas e projetos de construção. O objetivo da plataforma é conectar clientes a profissionais da área, como arquitetos e engenheiros, oferecendo um ambiente onde seja possível visualizar, publicar e adquirir projetos arquitetônicos de forma simples e segura. Atualmente, a IncomeOfHouse não possui um site institucional completo. Por isso, surgiu a necessidade de desenvolver uma plataforma autoral que fortaleça a identidade da marca, apresente os projetos disponíveis, divulgue os profissionais cadastrados e facilite o contato entre clientes e especialistas da construção civil. Essa solução permitirá ampliar a presença digital da empresa, melhorar a experiência dos usuários e incentivar a comercialização de projetos arquitetônicos.
 
 ## Objetivo: 
     Desenvolver um site institucional simples, organizado e responsivo, aplicando conceitos de HTML semântico, organização de arquivos e planejamento de software.
@@ -11,39 +11,84 @@
     Público-alvo: Público em geral.
     Páginas do site:
         - Home
-        - Cadastro
-        - Cardápio
-        - CE1
-        - CE2
-        - Contato
-        - DS1
-        - DS2
+        - Plantas
+        - Profissionais
+        - Sobre Mós
         - Login
-        - SL1
-        - SL2
-        - Sobre
+        - Esqueceu Senha
+        - Cadastro Usuario
+        - Cadastro Profissional
+        - Detalhe Plantas
+        - Detalhe Profissional
+        - Comentarios
+        - Publicar Planta
+        - Perfil Usuario
+        - Meus Endereços
+        - Meus Pedidos
+        - Meus Profissionais Favoritos
+        - Projetos Salvos
+        - Mensagem
+        - Perfil Profissional
+        - Meus Portfolio
+        - Projetos
+        - Avaliações
+        - Agendamentos
+        - Configurações
+        - Termos de Uso
+        - Politica e Privacidade
 
 ## Etapa 2 - Requisitos
     Requisitos Funcionais:
-        - Exibir informações sobre a cafeteria.
-        - Apresentar os produtos disponíveis.
-        - Disponibilizar um formulário de contato.
+        - Exibir plantas de casas disponíveis.
+        - Exibir detalhes das plantas.
+        - Permitir cadastro de usuários.
+        - Permitir cadastro de profissionais.
+        - Realizar login.
+        - Recuperar senha.
+        - Publicar novas plantas.
+        - Favoritar profissionais.
+        - Salvar projetos.
+        - Visualizar perfil dos profissionais.
+        - Enviar mensagens entre usuário e profissional.
+        - Agendar reuniões.
+        - Avaliar profissionais.
+        - Gerenciar portfólio.
+        - Gerenciar pedidos.
+        - Gerenciar endereços.
+        - Exibir termos de uso.
+        - Exibir política de privacidade.
 
     Requisitos Não Funcionais:
-        - Layout organizado e intuitivo.
-        - Código HTML semântico e bem indentado.
-        - Compatibilidade com navegadores modernos.
-        - Design responsivo (se você pretende fazer).
+        - Layout moderno e intuitivo.
+        - Interface responsiva.
+        - Compatível com Chrome, Edge e Firefox.
+        - Código organizado.
+        - HTML semântico.
+        - CSS separado do HTML.
+        - JavaScript modular.
+        - Banco de dados MySQL.
+        - Boa performance.
+        - Fácil manutenção.
 
     Requisitos Estruturais:
-        - Organização padronizada das pastas.
-        - Separação entre HTML, CSS e JavaScript.
+        - Organização do projeto em duas camadas: Front-End e Back-End.
+        - Separação entre arquivos HTML, CSS e JavaScript.
+        - Utilização de uma estrutura de pastas padronizada para facilitar a manutenção.
+        - Páginas HTML organizadas dentro da pasta pages.
+        - Arquivos CSS centralizados na pasta css.
+        - Scripts JavaScript organizados na pasta js.
+        - Dados de exemplo armazenados em arquivos JSON na pasta data durante o desenvolvimento.
+        - Imagens organizadas na pasta img.
+        - Back-end responsável pelo gerenciamento das requisições e conexão com o banco de dados.
+        - Banco de dados MySQL utilizado para armazenar informações de usuários, profissionais, projetos, mensagens e avaliações.
+        - Código-fonte versionado utilizando Git.
+        - Nomenclatura padronizada para arquivos e pastas.
 
 ## Etapa 3 - Estrutura Técnica
 
 
 # Estrutura da Pastas
-        cafecentral-site/
+        IncomeOfHouse-site/
     │
     ├───── Back-End/
     │   ├── db.js
@@ -68,16 +113,32 @@
     │   │    └── profissionais.js
     │   │ 
     │   ├── pages/
-    │   │    ├── cadastroP.html
+    │   │    ├── Agendamentos.html
+    │   │    ├── Avaliações.html
+    │   │    ├── CadastrarProfissionais.html
     │   │    ├── cadastro.html
-    │   │    ├── DetalhesProfissional.html
-    │   │    ├── DetalhesPlantas.html
+    │   │    ├── Comentarios.html
+    │   │    ├── Configurações.html
+    │   │    ├── DetalhePlanta.html
+    │   │    ├── DetalheProfissional.html
+    │   │    ├── DetalhesPlanta.html
     │   │    ├── EsqueceuSenha.html
     │   │    ├── login.html
+    │   │    ├── Mensagem.html
+    │   │    ├── MeuPortfolio.html
+    │   │    ├── MeusEndereços.html
+    │   │    ├── MeusPedidos.html
+    │   │    ├── MeusProfissionais.html
+    │   │    ├── PerfilProfissional.html
+    │   │    ├── PerfilUsuario.html
     │   │    ├── plantas.html
-    │   │    ├── profissionais.html
-    │   │    ├── publicarplanta.html
-    │   │    └── sobre.html
+    │   │    ├── PoliticaPrivacidade.html
+    │   │    ├── Profissionais.html
+    │   │    ├── Projetos.html
+    │   │    ├── ProjetosSalvos.html
+    │   │    ├── PublicarPlanta.html
+    │   │    ├── sobre.html
+    │   │    └── TermosUso.html
     │   └── index.html
     │
     ├── .gitignore 
@@ -85,14 +146,35 @@
 
 
 # Tecnologias:
-    - HTML5
-    - CSS3
-    - JavaScript
-    - Visual Studio Code
-    - MySQL WorkBeach
+    Front-end:
+        - HTML5
+        - CSS3
+        - JavaScript
 
+    Back-end:
+        - Node.js
+        - Express
+
+    Banco de Dados:
+        - MySQL
+
+    Ferramentas:
+        - VS Code
+        - Git
+        - GitHub
+        - MySQL Workbench
 
 ## Etapa 4 -Registro das Decisões
 
+        - Foi adotada uma arquitetura com separação entre Front-End e Back-End para facilitar a organização e manutenção do sistema.
+        - O HTML5 semântico foi escolhido para melhorar a estrutura do código e a acessibilidade da aplicação.
+        - O CSS foi mantido em arquivos separados para permitir a reutilização dos estilos e facilitar futuras modificações.
+        - O JavaScript foi utilizado para implementar funcionalidades dinâmicas e melhorar a experiência do usuário.
+        - O Node.js foi escolhido para o desenvolvimento do servidor por sua integração com JavaScript e pela simplicidade no desenvolvimento de aplicações web.
+        - O MySQL foi definido como banco de dados por oferecer uma estrutura relacional adequada para o armazenamento das informações do sistema.
+        - Durante o desenvolvimento inicial, arquivos JSON serão utilizados para simular dados antes da integração definitiva com o banco de dados.
+        - A interface será desenvolvida de forma responsiva para garantir compatibilidade com diferentes dispositivos.
+
 # Objetivo Final
 
+    Desenvolver uma plataforma web institucional responsiva e funcional para a IncomeOfHouse, permitindo a divulgação de plantas arquitetônicas, cadastro de profissionais, gerenciamento de usuários e comunicação entre clientes e especialistas da construção civil. O sistema deverá apresentar uma interface intuitiva, organizada e de fácil manutenção, utilizando HTML5, CSS3, JavaScript, Node.js e MySQL.
