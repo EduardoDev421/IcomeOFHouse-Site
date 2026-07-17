@@ -1,14 +1,31 @@
 /* Geral */
 
+<<<<<<< HEAD
 body{
     background:#333;
     width:100%;
+=======
+html,body{
+>>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+body{
+    background:#333;
+    display: flex;
+    flex-direction: column;
+}
+
+main{ 
+    flex: 1;
+}
+
+>>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 /* Menu */
 
 .topo{
@@ -18,7 +35,6 @@ body{
     display:flex;
     justify-content: center;
 }
-
 .menu{
     width:50%;
     display:flex;
@@ -78,6 +94,31 @@ body{
 .iconelogin{
     width:28px;
     cursor:pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #f5f5f5f5;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container-pagina-auth{
+    padding: 50px;
+    text-align: center;
+}
+
+.container-pagina-auth p{
+    color: #f5f5f5f5;
+
 }
 
 /* Página */
@@ -145,13 +186,20 @@ body{
 
 /* Cards */
 
+<<<<<<< HEAD
 .contenedor-cards{
     width:90%;
     margin:60px auto;
+=======
+.container-cards{
+    display: flex;
+    gap: 20px;
+>>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 }
 
 .cards-plantas{
     width:90%;
+    height: 300px;
     margin:60px auto;
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -208,16 +256,27 @@ body{
 
 /* Rodapé */
 
+<<<<<<< HEAD
 .rodapé{
     background:#fff;
     padding:25px;
     text-align:center; 
     margin-top:50px;
+=======
+.rodapé {
+    background: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.rodapé p {
+    color: #444;
+>>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 }
 
-.rodapé p{
-    color:#444;
-}
 
 /* Responsivo */
 
@@ -480,6 +539,8 @@ body{
     text-decoration: none;
 }
 
+
+
 /* Responsividade */
 
 @media (max-width:768px){
@@ -487,7 +548,6 @@ body{
     .cards-profissionais{
         grid-template-columns: 1fr;
     }
-
 }
 }
 }
