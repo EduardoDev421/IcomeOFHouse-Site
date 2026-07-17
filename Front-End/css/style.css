@@ -1,6 +1,6 @@
 /* Reset */
 
-*{
+html,body{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -9,6 +9,12 @@
 
 body{
     background:#333;
+    display: flex;
+    flex-direction: column;
+}
+
+main{ 
+    flex: 1;
 }
 
 /* Menu */
@@ -21,7 +27,6 @@ body{
     justify-content:center;
     align-items:center;
 }
-
 .menu{
     width:90%;
     display:flex;
@@ -50,6 +55,31 @@ body{
 .iconelogin{
     width:28px;
     cursor:pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #f5f5f5f5;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container-pagina-auth{
+    padding: 50px;
+    text-align: center;
+}
+
+.container-pagina-auth p{
+    color: #f5f5f5f5;
+
 }
 
 /* Página */
@@ -117,8 +147,14 @@ body{
 
 /* Cards */
 
+.container-cards{
+    display: flex;
+    gap: 20px;
+}
+
 .cards-plantas{
     width:90%;
+    height: 300px;
     margin:60px auto;
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -175,16 +211,19 @@ body{
 
 /* Rodapé */
 
-.rodapé{
-    background:#fff;
-    padding:25px;
-    text-align:center;
-    margin-top:50px;
+.rodapé {
+    background: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.rodapé p {
+    color: #444;
 }
 
-.rodapé p{
-    color:#444;
-}
 
 /* Responsivo */
 
@@ -447,6 +486,8 @@ body{
     text-decoration: none;
 }
 
+
+
 /* Responsividade */
 
 @media (max-width:768px){
@@ -454,7 +495,6 @@ body{
     .cards-profissionais{
         grid-template-columns: 1fr;
     }
-
 }
 }
 }
