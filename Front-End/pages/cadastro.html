@@ -4,65 +4,58 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/Cadastro.css">
    <title>Pagina do Cadastro</title>
 </head>
 <body>
    <header class="topo">
-      <div>
+      <div class="logo">
          <img src="" alt="Logo Income of Houses">
       </div>
       <nav class="menu">
          <a href="../index.html">Início</a>
-<<<<<<< HEAD
-         <a href="../pages/Sobre.html">Sobre</a>
-         <a href="../pages/Plantas.html">Plantas</a>
-         <a href="../pages/Profissionais.html">Profissionais</a>
-         <a href="../pages/cadastro.html" class="ativo"></a>
-=======
          <a href="../pages/Plantas.html">Plantas</a>
          <a href="../pages/Profissionais.html">Profissionais</a>
          <a href="../pages/Sobre.html">Sobre</a>
->>>>>>> c63d85f478124d8860ae655ac4dec0e18319c393
       </nav>
    </header>
-
-         <!-- Conteúdo Cadastro Usuário-->
-         <main class="container pagina-auth">
+         <main class="Container-Auth">
             <section class="bloco-auth">
                <h1>Cadastre-se</h1>
+               <form class="formCadastro">
 
-               <div>
-                  <img src="" alt="iconeLogin" href="" class="iconelogin">
-               </div>
+                  <div class="Campo">
+                     <label for="nomeCadastro">Nome:</label>
+                     <input type="text" id="nomeCadastro" placeholder="Digite seu nome" required>
 
-               <form class="form-auth formCadastro">
+                     <label for="emailCadastro">Email:</label>
+                     <input type="text" id="emailCadastro" placeholder="Digite seu e-mail" required>
 
-                  <label for="nomeCadastro">Nome</label>
-                  <input type="text" id="nomeCadastro" placeholder="Digite seu nome" required>
+                     <label for="cpfCadastro">Cpf:</label>
+                     <input type="number" id="cpfCadastro" placeholder="Digite seu cpf" required>
 
-                  <label for="emailCadastro">Email</label>
-                  <input type="password" id="emailCadastro" placeholder="Digite seu e-mail" required>
+                     <label for="telefoneCadastro">Telefone:</label>
+                     <input type="number" id="telefoneCadastro" placeholder="Digite seu telefone" required>
 
-                  <label for="cpfCadastro">Cpf</label>
-                  <input type="number" id="cpfCadastro" placeholder="Digite seu cpf" required>
+                     <label for="datanascCadastro">Data de Nascimento:</label>
+                     <input type="date" id="datanascCadastro" placeholder="Digite sua data de nascimento" required>
 
-                  <label for="telefoneCadastro">Telefone</label>
-                  <input type="number" id="telefoneCadastro" placeholder="Digite seu telefone" required>
+                     <label for="senhaCadastro">Senha:</label>
+                     <input type="password" id="senhaCadastro" placeholder="Crie sua senha" required>
 
-                  <label for="datanascCadastro">Data de Nascimento</label>
-                  <input type="date" id="datanascCadastro" placeholder="Digite sua data de nascimento" required>
+                     <label for="confirmaSenha">Confirmar Senha:</label>
+                     <input type="password" id="confirmaSenha" placeholder="Confirmar sua Senha" required>
+                     <div class="FimCampo">
+                        <div class="links">
+                           <a href="../pages/login.html">Ja possui um cadastro?</a>
+                           <a href="../pages/cadastrarP.html">Sou um profissional!</a>
+                        </div>
 
-                  <label for="senhaCadastro">Senha</label>
-                  <input type="text" id="senhaCadastro" placeholder="Crie sua senha" required>
-
-                  <label for="confirmaSenha">Confirmar Senha</label>
-                  <input type="text" id="confirmaSenha" placeholder="Confirmar sua Senha" required>
-
-                  <button type="submit" class="btn-primario">Cadastrar</button>
-
-                  <a href="../pages/login.html">Ja possui um cadastro?</a>
-                  <a href="../pages/cadastrarP.html">Sou um profissional!</a>
+                        <div>
+                           <button type="submit" class="btn-primario">Cadastrar</button>
+                        </div>
+                     </div>
+                  </div>
                </form>
             </section>
          </main>

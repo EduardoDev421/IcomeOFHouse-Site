@@ -5,32 +5,29 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/Profissionais.css">
    <title>Pagina dos Profissionais</title>
 </head>
 <body>
    <header class="topo">
-      <div>
+      <div class="logo">
          <img src="" alt="Logo Income of Houses">
       </div>
       <nav class="menu">
          <a href="../index.html">Início</a>
          <a href="../pages/Plantas.html">Plantas</a>
-         <a href="./pages/Profissionais.html" class="ativo">Profissionais</a>
+         <a href="../pages/Profissionais.html" class="ativo">Profissionais</a>
          <a href="../pages/Sobre.html">Sobre</a>
-         
-         <div>
-            <img src="" alt="iconeLogin" href="" class="iconelogin">
-         </div>
       </nav>
+      <div class="iconelogin">
+         <img src="" alt="iconeLogin" href="../pages/Login.html"  class="iconelogin">
+      </div>
    </header>
-</body>
-
     <main class="pagina-profissionais">
 
         <section class="filtros">
 
-            <h1>Encontre um profissional</h1>
+            <h1>Encontre um profissional entre os nossos melhores</h1>
 
             <div class="linha-filtros">
 
@@ -47,15 +44,37 @@
                 </div>
 
                 <div class="campo">
-                    <label for="cidade">Cidade</label>
-                    <select id="cidade">
+                    <label for="estado">Estado:</label>
+                    <Select type="text" id="estado" name="estado">
                         <option value="">Todas</option>
-                        <option value="Brasília - DF">Brasília - DF</option>
-                        <option value="Goiânia - GO">Goiânia - GO</option>
-                        <option value="Anápolis - GO">Anápolis - GO</option>
-                        <option value="São Paulo - SP">São Paulo - SP</option>
-                        <option value="Belo Horizonte - MG">Belo Horizonte - MG</option>
-                    </select>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</	option>
+                        <option value="PI">Piauí</	option>
+                        <option value="RJ">Rio de Janeiro</	option>
+                        <option value="RN">Rio Grande do Norte</	option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </Select>
                 </div>
 
                 <div class="campo">
@@ -66,14 +85,10 @@
                         <option value="9 anos">9 anos</option>
                         <option value="10 anos">10 anos</option>
                         <option value="12 anos">12 anos</option>
-                        <option value="15 anos">15 anos</option>
+                        <option value="15 anos">15 anwos</option>
                         <option value="18 anos">18 anos</option>
                     </select>
                 </div>
-
-            </div>
-
-            <div class="linha-filtros">
 
                 <div class="campo">
                     <label for="avaliacao">Avaliação</label>
@@ -92,22 +107,15 @@
 
             </div>
 
+            <div class="cards-profissionais"> 
+                
+            </div>
         </section>
-
-        <section class="cards-profissionais">
-            <!-- Os cards serão criados pelo profissionais.js -->
-        </section>
-
     </main>
-
-    <footer class="rodapé">
-        <p>© Income Of Houses. Todos os direitos reservados.</p>
-
-        <a href="TermosUso.html">Termos de Uso</a>
-        <a href="PoliticaPrivacidade.html">Política de Privacidade</a>
-    </footer>
-
-    <script src="../js/profissionais.js"></script>
-
+   <footer class="rodapé">
+      <p>©IncomeOfHouses.Todos os direitos reservados.</p>
+      <a href="../pages/TermosUso.html">Termos de Uso</a>
+      <a href="../pages/PoliticaPrivacidade.html">Política de Privacidade</a>
+   </footer>
 </body>
 </html>

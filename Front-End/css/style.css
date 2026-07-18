@@ -1,21 +1,16 @@
 /* Geral */
 
-<<<<<<< HEAD
-body{
-    background:#333;
-    width:100%;
-=======
+
+
 html,body{
->>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 body{
+    width:100%;
     background:#333;
     display: flex;
     flex-direction: column;
@@ -24,8 +19,6 @@ body{
 main{ 
     flex: 1;
 }
-
->>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 /* Menu */
 
 .topo{
@@ -185,16 +178,11 @@ main{
 }
 
 /* Cards */
-
-<<<<<<< HEAD
-.contenedor-cards{
+.container-cards{
     width:90%;
     margin:60px auto;
-=======
-.container-cards{
     display: flex;
     gap: 20px;
->>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 }
 
 .cards-plantas{
@@ -255,26 +243,17 @@ main{
 }
 
 /* Rodapé */
-
-<<<<<<< HEAD
-.rodapé{
+.rodapé {
     background:#fff;
     padding:25px;
     text-align:center; 
     margin-top:50px;
-=======
-.rodapé {
-    background: #fff;
-    padding: 25px;
-    text-align: center;
-    margin-top: 50px;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 .rodapé p {
     color: #444;
->>>>>>> cd5cbe7ffdd1ab03fe0a6ee182f41aa9c0e4efb2
 }
 
 
