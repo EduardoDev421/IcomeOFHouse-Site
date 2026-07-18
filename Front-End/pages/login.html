@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/Login.css">
    <title>Pagina de Login</title>
 </head>
 <body>
@@ -16,34 +16,36 @@
          <a href="../index.html">Início</a>
          <a href="../pages/Plantas.html">Plantas</a>
          <a href="../pages/Profissionais.html">Profissionais</a>
-         <a href="../pages/Sobre.html" class="ativo">Sobre</a>
+         <a href="../pages/Sobre.html">Sobre</a>
       </nav>
    </header>
+         <main>
+            <div class="Linha"></div>
+            <section>
+               <div class="Container-Auth">
+                  <div class="Bloco-Login">
 
-         <!-- Conteúdo Login -->
-         <main class="container pagina-auth">
-            <section class="bloco-auth">
-            <h1>Logar</h1>
+                        <h1>Logar</h1>
+                        <form class="FormLogin">
+                           <div class="Campo">
+                              <label for="emailLogin">E-mail:</label>
+                              <input type="email" id="emailLogin" placeholder="Digite seu e-mail" required>
+                              
+                              <label for="senhaLogin">Senha:</label>
+                              <input type="password" id="senhaLogin" placeholder="Digite sua senha" required>
 
-            <div>
-               <img src="" alt="iconeLogin" href="" class="iconelogin">
-            </div>
+                              <div class="FimCampo">
+                                 <div class="Links">
+                                    <a href="../pages/Cadastro.html">Não possui um cadastro? Cadastre-se</a>
+                                    <a href="../pages/EsqueceuSenha.html">Esqueceu a senha?</a>
+                                 </div>
 
-            <form class="form-auth" id="formLogin">
-
-               <label for="emailLogin">E-mail</label>
-               <input type="email" id="emailLogin" placeholder="Digite seu e-mail" required>
-               
-               <label for="senhaLogin">Senha</label>
-               <input type="password" id="senhaLogin" placeholder="Digite sua senha" required>
-
-               <button type="submit" class="btn-primario">Entrar</button>
-
-               <p class="link-auth">
-               Não possui um cadastro? <a href="cadastro.html">Cadastre-se</a>
-               <a href="EsqueceuSenha.html">Esqueceu a senha?</a>
-               </p>
-            </form>
+                                 <button type="submit" class="btn-primario">Entrar</button>
+                              </div>
+                           </div>
+                        </form>
+                  </div>
+               </div>
             </section>
          </main>
    <footer class="rodapé">

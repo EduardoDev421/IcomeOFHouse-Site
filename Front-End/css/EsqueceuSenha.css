@@ -1,3 +1,4 @@
+/* Geral */
 html,body{
     margin:0;
     padding:0;
@@ -15,9 +16,9 @@ body{
 main{ 
     flex: 1;
 }
-
 /* ================================================= */
 /* Menu */
+
 .topo{
     width:100%;
     background:#fff;
@@ -35,7 +36,7 @@ main{
 
 .menu a{
     text-decoration:none;
-    color:#000;
+    color:#333;
     font-size:15px;
     padding: 10px 25px;
 }
@@ -52,46 +53,54 @@ main{
 /* Linha Atras do CadastroUsuario*/
 .Linha{
     position: absolute;
-    top: 80%;
+    top: 65%;
     width: 100%;
     height: 120px;
     background: #3b3b3b;
 }
 /* ================================================= */
-/* Cadastro Usuario */
+/* Linha Atras do CadastroUsuario*/
+.Linha{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 120px;
+    background: #3b3b3b;
+}
 
-.Container-Auth {
+/* ================================================= */
+/* Esqueceu a Senha */
+.Container-Senha {
     display: flex;
     justify-content: center;
     margin: 100px;
 }
 
-.bloco-auth{
+.bloco-auth {
     position: relative;
-    width: 100%;
-    max-width: 500px;
     background-color: #fff;
-    border-radius: 20px;
-    padding: 40px 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 100px;
+    border-radius: 10px;
 }
 
 .bloco-auth h1{
     color: #333;
-    width: 100%;
-    margin-bottom: 40px;
     text-align: center;
 }
 
-.formCadastro{
-    width: 100%;
-    max-width: 400px;
+.bloco-auth p {
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.Campo{
-    width: 100%;
+.FormSenha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Campo {
     display: flex;
     flex-direction: column;
 }
@@ -108,58 +117,21 @@ main{
     color: #555;
     width: 100%;
     height: 45px;
-    padding: 0 10px;
+    padding: 0px 10px;
     border: 1px solid #999;
     border-radius: 6px;
     box-sizing: border-box;
+    text-align: start;
 }
 
-.Campo a{
-    text-decoration: none;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-}
-
-.Campo button {
+.FormSenha button {
     background-color: #555;
+    margin-top: 30px;
     padding: 10px 20px;
     color: #fff;
     border-radius: 8px;
     border: 0;
 }
-
-.FimCampo{
-    margin-top:25px;
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-end;
-}
-
-.Links{
-    display:flex;
-    flex-direction:column;
-    gap:8px;
-}
-
-.Links a{
-    text-decoration:none;
-    color:#333;
-    font-size:14px;
-}
-
-.FimCampo button{
-    width:140px;
-    height:42px;
-    background:#555;
-    color:#fff;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
-}
-
-
-
 /* ================================================= */
 /* Rodapé */
 .rodapé {

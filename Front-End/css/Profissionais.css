@@ -112,6 +112,24 @@ main{
     font-weight: bold;
 }
 
+.BotaoPesquisar {
+    display: flex;
+    justify-content: center;
+}
+
+.BotaoPesquisar button{
+    width: 100%;
+    height: 50px;
+    background: #555;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
 /* ================================================= */
 /* Rodapé */
 .rodapé {

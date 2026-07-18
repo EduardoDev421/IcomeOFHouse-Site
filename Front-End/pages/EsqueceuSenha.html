@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="IncomeofHouses - Site de renda passiva com imóveis">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/EsqueceuSenha.css">
    <title>Pagina de Esqueceu Senha</title>
 </head>
 <body>
@@ -16,25 +16,27 @@
          <a href="../index.html">Início</a>
          <a href="../pages/Plantas.html">Plantas</a>
          <a href="../pages/Profissionais.html">Profissionais</a>
-         <a href="../pages/Sobre.html" class="ativo">Sobre</a>
+         <a href="../pages/Sobre.html">Sobre</a>
       </nav>
    </header>
          <main>
+            <div class="Linha"></div>
             <section>
-               <div>
-                  <div>
-                     <img src="" alt="">
+               <div class="Container-Senha">
+                  <div class="bloco-auth">
+
+                     <h1>Esqueceu sua senha?</h1>
+                     <p>Digite seu email para receber instruções de recuperação de senha.</p>
+
+                     <form class="FormSenha" action="" method="post">
+                        <div class="Campo">
+                           <label for="email">Email:</label>
+                           <input type="email" id="email" name="email" placeholder="Digite seu email">
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                     </form>
                   </div>
-
-                  <h2>Esqueceu sua senha?</h2>
-                  <p>Digite seu email para receber instruções de recuperação de senha.</p>
-
-                  <form action="" method="post">
-                     <label for="email">Email:</label>
-                     <input type="email" id="email" name="email" placeholder="Digite seu email">
-
-                     <button type="submit">Enviar</button>
-
                </div>
             </section>
          </main>
